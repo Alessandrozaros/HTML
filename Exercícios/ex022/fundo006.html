@@ -6,16 +6,25 @@
     <title>Document</title>
     <style>
         body{
-            height: 100vh;
+           /* height: 100vh;
             background-color: black;
             background-image: url(imagens/wallpaper002.jpg);
-            background-position: center;
+            background-position: center center;
             background-repeat: no-repeat;
             background-size: cover;
+            background-attachment: fixed;
+            */
+        
+        /*Shorthand - background
+        color > image > position > repeat > [size] > attaachment 
+        */
+
+        background : black url(imagens/wallpaper002.jpg) center no-repeat fixed;
+        background-size: cover;/*background-size não está sendo aceito pelos navegadores na shorthand*/
         }
         main{
             background-color: white;
-            width: 400px;
+            max-width: 400px;
             padding: 10px;
             margin: auto;
             border: 1px solid darkblue;
@@ -27,7 +36,7 @@
 <body>
     <main>
         <h1>Teste de imagem de fundo</h1>
-        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Enim vero, dignissimos ab asperiores explicabo vitae commodi unde fuga quis. Reprehenderit doloribus minus eos atque voluptatibus odit optio fugiat, voluptatum aliquam?Lorem ipsum dolor sit amet consectetur adipisicing elit. Architecto reiciendis iste omnis sequi aspernatur adipisci dicta assumenda iusto dolorem! Ducimus omnis magnam, odit obcaecati dicta mollitia commodi distinctio sit repellat.</p>
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Enim vero, dignissimos ab asperiores explicabo vitae commodi unde fuga quis. Reprehenderit doloribus minus eos atque voluptatibus odit optio fugiat, voluptatum aliquam?Lorem ipsum dolor sit amet consectetur adipisicing elit. Architecto reiciendis iste omnis sequi aspernatur adipisci dicta assumenda iusto dolorem! Ducimus omnis magnam, odit obcaecati dicta mollitia commodi distinctio sit repellat.Lorem ipsum dolor sit amet consectetur adipisicing elit. Enim vero, dignissimos ab asperiores explicabo vitae commodi unde fuga quis. Reprehenderit doloribus minus eos atque voluptatibus odit optio fugiat, voluptatum aliquam?Lorem ipsum dolor sit amet consectetur adipisicing elit. Architecto reiciendis iste omnis sequi aspernatur adipisci dicta assumenda iusto dolorem! Ducimus omnis magnam, odit obcaecati dicta mollitia commodi distinctio sit repellat.Lorem ipsum dolor sit amet consectetur adipisicing elit. Enim vero, dignissimos ab asperiores explicabo vitae commodi unde fuga quis. Reprehenderit doloribus minus eos atque voluptatibus odit optio fugiat, voluptatum aliquam?Lorem ipsum dolor sit amet consectetur adipisicing elit. Architecto reiciendis iste omnis sequi aspernatur adipisci dicta assumenda iusto dolorem! Ducimus omnis magnam, odit obcaecati dicta mollitia commodi distinctio sit repellat.Lorem ipsum dolor sit amet consectetur adipisicing elit. Enim vero, dignissimos ab asperiores explicabo vitae commodi unde fuga quis. Reprehenderit doloribus minus eos atque voluptatibus odit optio fugiat, voluptatum aliquam?Lorem ipsum dolor sit amet consectetur adipisicing elit. Architecto reiciendis iste omnis sequi aspernatur adipisci dicta assumenda iusto dolorem! Ducimus omnis magnam, odit obcaecati dicta mollitia commodi distinctio sit repellat.Lorem ipsum dolor sit amet consectetur adipisicing elit. Enim vero, dignissimos ab asperiores explicabo vitae commodi unde fuga quis. Reprehenderit doloribus minus eos atque voluptatibus odit optio fugiat, voluptatum aliquam?Lorem ipsum dolor sit amet consectetur adipisicing elit. Architecto reiciendis iste omnis sequi aspernatur adipisci dicta assumenda iusto dolorem! Ducimus omnis magnam, odit obcaecati dicta mollitia commodi distinctio sit repellat.</p>
     </main>
     
 </body>
